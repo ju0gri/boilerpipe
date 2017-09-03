@@ -24,7 +24,7 @@ import com.kohlschutter.boilerpipe.extractors.ArticleExtractor;
 /**
  * Demonstrates how to use Boilerpipe to get the main content as plain text. Note: In real-world
  * cases, you'd probably want to download the file first using a fault-tolerant crawler.
- * 
+ *
  * @see HTMLHighlightDemo if you need HTML as well.
  */
 public class Oneliner {
@@ -38,7 +38,7 @@ public class Oneliner {
     System.out.println(ArticleExtractor.INSTANCE.getText(url));
 
     // Also try other extractors!
-    // System.out.println(DefaultExtractor.INSTANCE.getText(url));
-    // System.out.println(CommonExtractors.CANOLA_EXTRACTOR.getText(url));
+    // System.out.println(DefaultExtractor.INSTANCE.getResponse(url));
+    // System.out.println(CommonExtractors.CANOLA_EXTRACTOR.getResponse(url));
   }
 }

@@ -43,7 +43,7 @@ public class UsingSAX {
 
     // You have the choice between different Extractors
 
-    // System.out.println(DefaultExtractor.INSTANCE.getText(doc));
+    // System.out.println(DefaultExtractor.INSTANCE.getResponse(doc));
     System.out.println(ArticleExtractor.INSTANCE.getText(doc));
   }
 }
